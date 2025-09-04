@@ -27,7 +27,7 @@ logger.addHandler(file_handler)
 
 
 # Load Data
-# https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
+
 def load_data(data_url:str) -> pd.DataFrame:
     
     """Load data from a CSV file."""
