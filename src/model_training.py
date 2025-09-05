@@ -5,6 +5,8 @@ import pickle
 import logging
 from sklearn.ensemble import RandomForestClassifier
 import yaml
+from dvclive import Live
+
 
 # Ensure the "logs" directory exists
 log_dir = 'logs'
